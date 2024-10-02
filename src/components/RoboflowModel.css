@@ -1,0 +1,28 @@
+.roboflow-model {
+  position: relative;
+}
+
+.loading .roboflow-model > video {
+  filter: grayscale(1) brightness(0.25);
+}
+
+.roboflow-model > video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  transition: filter 200ms linear;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.roboflow-model > canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 20;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}

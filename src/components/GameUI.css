@@ -1,0 +1,131 @@
+.loading .game {
+  visibility: hidden;
+}
+
+.game .scoreboard {
+  position: relative;
+  margin: 20px auto;
+  border: 3px solid white;
+  border-radius: 4px;
+  padding: 15px 20px;
+  width: 200px;
+  color: white;
+  font-size: 46px;
+  font-family: 'Asap', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+  text-align: center;
+}
+
+.game .badge {
+  background: #e2584d;
+  padding: 2px 10px;
+  color: white;
+  font-size: 14px;
+  font-family: 'Asap', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+}
+
+.game .user-label {
+  position: absolute;
+  top: 30px;
+  left: -28px;
+}
+
+.game .comp-label {
+  position: absolute;
+  top: 30px;
+  right: -30px;
+}
+
+.game .main {
+  display: flex;
+  justify-content: space-around;
+}
+
+.game .face {
+  border-radius: 4px;
+  width: 110px;
+}
+
+.game .hits {
+  padding-top: 4px;
+  font-size: 16px;
+  font-family: 'Asap', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+  text-align: center;
+}
+
+.game .hand {
+  width: 82px;
+}
+
+.game .hand > img {
+  width: 82px;
+}
+
+.game .comp-choice {
+  transform: scaleX(-1);
+}
+
+.game .green-glow {
+  box-shadow: 0 0 10px #31b43a;
+  border: 4px solid #4dcc7d;
+}
+
+.game .red-glow {
+  box-shadow: 0 0 10px #d01115;
+  border: 4px solid #fc121b;
+}
+
+.game .grey-glow {
+  box-shadow: 0 0 10px #25292b;
+  border: 4px solid #464647;
+}
+
+.game .round-result {
+  margin-top: 16px;
+  margin-bottom: 20px;
+  color: white;
+  font-size: 30px;
+}
+
+.game .round-result > p {
+  font-weight: bold;
+  font-family: 'Asap', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+  text-align: center;
+}
+
+.game .round-result > .small {
+  padding-top: 8px;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 14px;
+}
+
+.game .modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 100%;
+  height: 100%;
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+  font-family: 'Asap', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+  text-align: center;
+}
+
+.game .game-result {
+  margin: 135px auto;
+}
+
+.game .game-result > p {
+  padding-bottom: 10px;
+}
+
+.game .game-result > button {
+  border-radius: 4px;
+  background-color: whitesmoke;
+  padding: 10px;
+  width: 110px;
+  font-weight: bold;
+}

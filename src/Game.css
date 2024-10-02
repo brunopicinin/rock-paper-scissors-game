@@ -1,0 +1,22 @@
+.loading:before {
+  content: 'Loading Model...';
+  position: absolute;
+  top: 200px;
+  z-index: 100;
+  width: 100%;
+  color: white;
+  font-weight: bold;
+  font-size: 3em;
+  text-align: center;
+}
+
+.app-header {
+  background: whitesmoke;
+  padding: 20px;
+}
+
+.app-header > h1 {
+  color: #25272e;
+  font-family: 'Asap', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+  text-align: center;
+}
