@@ -126,7 +126,7 @@ function Game() {
   }, []);
 
   return (
-    <div className={isLoading ? 'loading' : ''}>
+    <div className={`${isLoading ? 'loading' : ''} container`}>
       <header className="app-header">
         <h1>Rock Paper Scissors</h1>
       </header>
